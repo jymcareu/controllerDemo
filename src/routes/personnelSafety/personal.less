@@ -1,0 +1,277 @@
+.map{
+  width:67%;
+  height:100%;
+  border:1px solid #66CEFD;
+  position:relative;
+}
+
+.alarm,.safe-modal,.safe-modal-header{
+  position:absolute;
+  right:20px;
+  top:60px;
+}
+
+.alarm{
+  cursor: pointer;
+}
+
+.name-input{
+  width:200px;
+  height:5%;
+  background:rgba(1,17,29,1);
+  margin: 10px;
+  border-radius:8px;
+  :global{
+    .ant-input{
+      background:rgba(1,17,29,1);
+      border-radius:8px;
+      border:none;
+      color:white;
+      font-size: 14px;
+    }
+    .ant-input:not(:first-child){
+      padding-left: 50px;
+    }
+    .ant-input-prefix{
+      padding-left: 10px;
+    }
+    .ant-input:focus{
+      box-shadow: 0 0px 5px 5px  rgba(102,206,253,0.7);
+    }
+
+  }
+}
+
+.safe-modal-header{
+  top:123px;
+  width:358px;
+  background: #162A36;
+  z-index: 35;
+  right: 21px;
+  box-shadow:0px 0px 4px 0px rgba(60,87,119,1);
+  p{
+    width: 100%;
+    margin:0;
+    color:#66D0FF;
+    display: flex;
+    line-height: 40px;
+    position: relative;
+    span{
+      text-align: center;
+    }
+  }
+}
+
+.safe-modal{
+  top:123px;
+  opacity: 0.7;
+  box-shadow:0px 0px 23px 3px rgba(116,209,255,1);
+  .warningContent{
+    margin:1px auto;
+  }
+  ul{
+    width: 100%;
+    position: relative;
+    left:0;
+    background:rgba(1,17,29,0.5) ;
+    li{
+      color:#fff;
+    }
+  }
+}
+
+.detail-modal{
+  width:600px;
+  opacity: 0.7;
+  position: absolute;
+  left:50%;
+  top:180px;
+  margin-left: -300px;
+  box-shadow:0px 0px 23px 3px rgba(116,209,255,1);
+  .warningContent{
+    width:596px;
+    p{
+      display: flex;
+      span{
+        text-align: center;
+      }
+    }
+    ul{
+      width: 100%;
+      position: relative;
+      left:0;
+      li{
+        span{
+          color:#fff;
+        }
+      }
+    }
+  }
+}
+
+.detail-modal-header{
+  width:596px;
+  color:#66D0FF;
+  left:50%;
+  margin-left: -298px;
+  display: flex;
+  line-height: 40px;
+  top:280px;
+  position: relative;
+  position: absolute;
+  z-index: 40;
+  background: #1A313F;
+  span{
+    text-align: center;
+  }
+  b{
+    position: absolute;
+    width: 7px;
+    height:2px;
+    background: #63B5F4;
+  }
+  b:nth-child(1){
+    left: 0;
+    top: -1.5px;
+  }
+  b:nth-child(2){
+    right: 0;
+    top: -1.5px;
+  }
+  b:nth-child(3){
+    right: 0;
+    bottom: -1.5px;
+  }
+  b:nth-child(4){
+    left: 0;
+    bottom: -1.5px;
+  }
+}
+
+.personDot{
+  position:absolute;
+  top:50%;
+  left:0;
+  animation: run infinite 20s linear;
+  width:10px;
+  height: 10px;
+  border-radius: 10px;
+  background: red;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+@keyframes run {
+  0%{
+    top:18%;
+    left:16%;
+    opacity: 1;
+  }
+  30%{
+    top:43%;
+    left:16%;
+  }
+  60%{
+    top:43%;
+    left:33%;
+  }
+  98%{
+    top:28%;
+    left:33%;
+    opacity: 1;
+  }
+  99%{
+    top:28%;
+    left:33%;
+    opacity: 0;
+  }
+  100%{
+    top:18%;
+    left:16%;
+    opacity: 0;
+  }
+}
+
+.path1{
+  position: absolute;
+  width:17%;
+  height:25%;
+  top:18%;
+  left:16%;
+  border:1px dashed red;
+  border-right: 0;
+  border-top: 0;
+  animation: path1 infinite 20s linear;
+}
+
+@keyframes path1 {
+  0%{
+    width:0;
+    height:0;
+  }
+  30%{
+    width:0;
+    height:25%;
+  }
+  60%{
+    width:17%;
+    height:25%;
+  }
+  98%{
+    width:17%;
+    height:25%;
+    opacity: 1;
+  }
+  99%{
+    width:17%;
+    height:25%;
+    opacity: 0;
+  }
+  100%{
+    width:0;
+    height:0;
+    opacity: 1;
+  }
+}
+
+.path2{
+  position: absolute;
+  width:1%;
+  height:15%;
+  border-left:1px dashed red;
+  top:43%;
+  left:33%;
+  animation: path2 infinite 20s linear;
+}
+
+@keyframes path2 {
+  0%{
+    width:0;
+    top:43%;
+    height:0;
+    opacity: 0;
+  }
+  60%{
+    width:0;
+    top:43%;
+    height:0;
+    opacity: 1;
+  }
+  98%{
+    top:28%;
+    height:15%;
+    opacity: 1;
+  }
+  99%{
+    opacity: 0;
+    top:28%;
+    height:0;
+  }
+  100%{
+    width:0;
+    top:28%;
+    opacity: 0;
+    height:0;
+  }
+}
+

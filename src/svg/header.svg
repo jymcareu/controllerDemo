@@ -1,0 +1,65 @@
+<svg
+  width="1920"
+  height="107"
+  viewBox="0 0 1920 107"
+  xmlns="http://www.w3.org/2000/svg"
+>
+    <line x1="5" y1="0" x2="23" y2="28"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <line x1="23" y1="0" x2="41" y2="28"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <line x1="99" y1="0" x2="117" y2="28"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <!-- <line x1="117" y1="0" x2="135" y2="28"
+    style="stroke:#7681C3;stroke-width:1"/> -->
+    <polyline
+        points="117,0 135,28 657,28 688,88 1230,88 1262,28 1784,28 1802,0"
+        style="stroke:#7681C3;fill:transparent;stroke-width:1"
+    />
+    <line x1="1802" y1="28" x2="1820" y2="0"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <line x1="1878" y1="28" x2="1896" y2="0"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <line x1="1896" y1="28" x2="1914" y2="0"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <line x1="4" y1="107" x2="22" y2="85"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <polyline
+        points="17,107 35,85 120,85 140,65 194,65"
+        style="stroke:#7681C3;fill:transparent;stroke-width:1"
+    />
+    <line x1="140" y1="85" x2="160" y2="65"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <line x1="1760" y1="65" x2="1780" y2="85"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <polyline
+        points="1726,65 1780,65 1800,85 1885,85 1903,107"
+        style="stroke:#7681C3;fill:transparent;stroke-width:1"
+    />
+    <line x1="1916" y1="107" x2="1898" y2="85"
+        style="stroke:#7681C3;stroke-width:1"
+    />
+    <polyline
+        points="644,28 657,28 677,65 664,65"
+        style="fill:#4D87FF;stroke-width:0"
+    />
+    <polyline
+        points="1262,28 1275,28 1255,65 1242,65"
+        style="fill:#4D87FF;stroke-width:0"
+    />
+    <line x1="35" y1="85" x2="120" y2="85"
+        style="stroke:#4D87FF;stroke-width:5"
+    />
+    <line x1="1800" y1="85" x2="1885" y2="85"
+        style="stroke:#4D87FF;stroke-width:5"
+    />
+</svg>

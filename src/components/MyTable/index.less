@@ -1,0 +1,26 @@
+.myTable{
+    .ant-table-thead > tr > th{
+        background: transparent;
+        color: #FFF;
+        padding: 10px 0;
+        text-align: center;
+        font-weight: bold;
+        border-bottom-color: #878787;
+    }
+    .ant-table-tbody > tr > td{
+        padding: 10px 0;
+        text-align: center;
+        color: #C4C4C5;
+        border-bottom-color: #878787;
+    }
+    .ant-table-tbody > tr{
+        &:last-of-type{
+            td{
+                border: none;
+            }
+        }
+    }
+    .ant-table-tbody > tr:hover > td{
+        background: transparent;
+    }
+}

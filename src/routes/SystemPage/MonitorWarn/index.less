@@ -1,0 +1,62 @@
+.monitorWarn{
+    padding: 30px 20px;
+    .canvasBox{
+        width: 1630px;
+        height: 520px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 4px #e8e8e8;
+        margin-bottom: 15px;
+        position: relative;
+        .dataModal{
+            position: absolute;
+            top: 120px;
+            left: 1300px;
+            width: 160px;
+            height: 252px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            .modalTitle{
+                margin-top: 15px;
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 30px;
+                color: rgb(44, 177, 235);
+            }
+            .dataList{
+                color: #FFF;
+                span{
+                    display: inline-block;
+                    width: 80px;
+                    padding-left: 20px;
+                    text-align: left;
+                    line-height: 24px;
+                }
+            }
+        }
+        .fengji{
+            position: absolute;
+            top: 408px;
+            left: 1004px;
+            animation:mymove 0.5s linear infinite;
+        }
+        @keyframes mymove{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform:rotate(360deg);
+            }
+        }
+    }
+    .ant-table-thead > tr > th{
+        background: rgb(230, 247, 255);
+        text-align: center;
+    }
+    .ant-table-tbody > tr > td{
+        text-align: center;
+    }
+    .ant-table table{
+        box-shadow: 0px 0px 7px 6px #e8e8e8;
+    }
+}
